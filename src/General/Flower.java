@@ -1,3 +1,5 @@
+package General;
+
 public abstract class Flower {
 
     protected String name;
@@ -11,7 +13,7 @@ public abstract class Flower {
 
     @Override
     public String toString() {
-        return "Flower{" +
+        return "General.Flower{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 ", neededArea=" + neededArea +

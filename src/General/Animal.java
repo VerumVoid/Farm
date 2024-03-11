@@ -1,3 +1,5 @@
+package General;
+
 public abstract class Animal {
 
     protected String type;
@@ -7,7 +9,7 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "General.Animal{" +
                 "type='" + type + '\'' +
                 ", name='" + name + '\'' +
                 ", size=" + size +
