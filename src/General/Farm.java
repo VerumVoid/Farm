@@ -27,7 +27,7 @@ public class Farm {
      * @param flower
      */
     public void water(Flower flower){
-
+        flower.water();
     }
 
     /**
